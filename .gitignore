@@ -1,0 +1,40 @@
+# Target & build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE & Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+.settings/
+.project
+.classpath
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs & temp files
+*.log
+scratch/
+tmp/
+temp/
+
+# Node (when frontend is added)
+node_modules/
+dist/
+.env.local
+.env.*.local
